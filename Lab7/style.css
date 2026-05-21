@@ -1,0 +1,60 @@
+.button {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition:
+    background-color 0.5s ease,
+    transform 0.2s;
+}
+
+.button:hover {
+  background: red;
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
+.content {
+  max-height: 40px;
+  overflow: hidden;
+  background: #eee;
+  transition: max-height 0.5s ease;
+  padding: 10px;
+}
+
+.content:hover {
+  max-height: 150px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: green;
+  position: relative;
+  margin-top: 20px;
+  animation: move 2s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: orange;
+  margin-top: 20px;
+  position: relative;
+}
