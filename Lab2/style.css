@@ -1,0 +1,66 @@
+/* Основні стилі */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main */
+
+main {
+  padding: 20px;
+}
+
+/* Секції */
+
+section {
+  background-color: white;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Заголовки */
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  color: #444;
+}
+
+/* Текст */
+
+p {
+  line-height: 1.6;
+}
+
+/* Список */
+
+ul {
+  padding-left: 20px;
+}
+
+/* Власна секція */
+
+.quote {
+  background-color: #777777; /* Hex колір */
+  color: white;
+
+  text-align: right; /* Непарний варіант */
+
+  padding: 7px; /* Номер варіанту */
+}
